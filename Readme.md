@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Евгений Недилько](https://up.htmlacademy.ru/adaptive/12/user/49128).
-* Наставник: [Андрей Захарченко](https://htmlacademy.ru/profile/drewtsure)...
+* Наставник: [Андрей Захарченко](https://htmlacademy.ru/profile/drewtsure).
 
 ---
 
