@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Мишка</title>
+</head>
+<body>
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__logo-image" src="img/logotype-mobile.svg" width="#" height="#" alt="Mishka">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="photo.html">Каталог товаров</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Вязание на заказ</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Поиск по сайту</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Корзина: пока пуста</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="page-main">
+    <h1 class="page-main__title">Вязание на заказ</h1>
+    <p class="page-main__form-description">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
+    <section class="page-main__form-wrapper">
+      <form class="page-main__form" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="page-main__form-type">
+          <legend class="page-main__form-legend">Тип</legend>
+          <input class="page-main__form-radio" type="radio" checked name="interior" value="adaptive" id="radio1">
+          <label class="page-main__form-option" for="radio1">Аксессуар для интерьера</label>
+          <input class="page-main__form-radio" type="radio" disabled name="toy" value="fixed" id="radio2">
+          <label class="page-main__form-option" for="radio2">Детская игрушка</label>
+        </fieldset>
+        <fieldset class="page-main__form-color">
+          <legend class="page-main__form-legend">Цвет</legend>
+          <input class="page-main__form-checkbox" type="checkbox" checked name="white" id="check1">
+          <label class="page-main__form-option" for="check1">Белый</label>
+          <input class="page-main__form-checkbox" type="checkbox" name="grey" id="check2">
+          <label class="page-main__form-option" for="check2">Серый</label>
+          <input class="page-main__form-checkbox" type="checkbox" name="tiffany" id="check3">
+          <label class="page-main__form-option" for="check3">"Тиффани"</label>
+          <input class="page-main__form-checkbox" type="checkbox" name="black" id="check4">
+          <label class="page-main__form-option" for="check4">Черный</label>
+          <input class="page-main__form-checkbox" type="checkbox" name="rose" id="check5">
+          <label class="page-main__form-option" for="check5">Розовый</label>
+          <input class="page-main__form-checkbox" type="checkbox" name="orange" id="check5">
+          <label class="page-main__form-option" for="check5">Оранжевый</label>
+        </fieldset>
+        <fieldset class="page-main__form-name">
+          <legend class="page-main__form-legend">ФИО</legend>
+          <p page-main__form-name-title>Имя:</p>
+          <label class="page-main__name-field">
+              <textarea class="page-main__form-name" rows="10" cols="20" name="form-more">Введите ваше имя*</textarea>
+            </label>
+          <p page-main__form-name-title>Фамилия:</p>
+          <label class="page-main__name-field">
+              <textarea class="page-main__form-name" rows="10" cols="20" name="form-surname">Укажите фамилию*</textarea>
+            </label>
+          <p page-main__form-name-title>Отчество:</p>
+          <label class="page-main__name-field">
+              <textarea class="page-main__form-name" rows="10" cols="20" name="form-second-name">Отчество, если желаете</textarea>
+            </label>
+        </fieldset>
+        <fieldset class="page-main__form-phone">
+          <legend class="page-main__form-legend">ТЕЛ</legend>
+          <label class="page-main__phone-field">
+              <textarea class="page-main__form-phone" rows="10" cols="20" name="your-phone">+7 XXX XX XX*</textarea>
+              </label>
+        </fieldset>
+        <fieldset class="page-main__form-email">
+          <legend class="page-main__form-legend">e-mail</legend>
+          <label class="page-main__email-field">
+              <textarea class="page-main__form-email" rows="10" cols="20" name="form-email">Ваш Email*</textarea>
+              </label>
+        </fieldset>
+        <fieldset class="page-main__form-more">
+          <legend class="page-main__form-legend">Доп</legend>
+          <label class="page-main__more-field">
+              <textarea class="page-main__form-more" rows="10" cols="20" name="form-more">Опишите все ваши пожелания по заказу</textarea>
+              </label>
+        </fieldset>
+        <p class="page-main__form-warning">*Поля обязательны для заполнения</p>
+        <input class="button page-main__button" type="submit" value="Отправить заказ">
+      </form>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__social social-buttons">
+      <a class="social-buttons__instagram"></a>
+      <a class="social-buttons__facebook"></a>
+      <a class="social-buttons__twitter"></a>
+    </div>
+    <div class="page-footer__produced-wrapper">
+      <p class="page-footer__produced">Разработано</p>
+    </div>
+  </footer>
+</body>
+</html>
